@@ -1,1 +1,4 @@
 Fancy zoom box loosely based on Cabel Sasser's FancyZoom. Built in prototype and jquery. Works unobtrusively with content already on the page, including images, headings, text and flash (pretty much any html).
+
+Updated to focus on jQuery and to map to the way my brain works.
+

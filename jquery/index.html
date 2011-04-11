@@ -5,13 +5,10 @@
 	<title>Fancy Zoom by John Nunemaker</title> 
 	<link rel="stylesheet" href="../css/common.css" type="text/css" /> 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-	<script type="text/javascript" src="js/fancyzoom.min.js"></script>
+	<script type="text/javascript" src="js/fancyzoom.js"></script>
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function() {
-			$('div.photo a').fancyZoom({scaleImg: true, closeOnClick: true});
-			$('#medium_box_link').fancyZoom({width:400, height:300});
-			$('#large_box_link').fancyZoom();
-			$('#flash_box_link').fancyZoom();
+			$('div.photo a').fancyZoom();
 		});
 	</script>
 	
@@ -40,7 +37,7 @@
 		<div id="photos">
 			<h3>Images</h3>
 			<div class="photo">
-				<a href="#github">
+				<a href="http://farm4.static.flickr.com/3250/2765022017_356efe6a25.jpg">
 					<img src="http://farm4.static.flickr.com/3250/2765022017_356efe6a25_s.jpg" alt="Github helmet" />
 				</a>
 			</div>
@@ -55,16 +52,6 @@
 				</a>
 			</div>
 
-			<div id="github">
-				<img src="http://farm4.static.flickr.com/3250/2765022017_356efe6a25.jpg" alt="helmet" />
-			</div>
-			<div id="hotdog">
-				<img src="http://farm4.static.flickr.com/3150/2726282580_05ed83e3c0.jpg" alt="Hot dog" />
-			</div>
-			<div id="turtles">
-				<img src="http://farm4.static.flickr.com/3088/2709825025_fb6d71b455.jpg" alt="Turtles" />
-				<p id="turtles_caption">It's true, they do bite!</p>
-			</div>
 		</div>
 		
 		<div id="text">
